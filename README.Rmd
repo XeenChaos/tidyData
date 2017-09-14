@@ -24,28 +24,29 @@ Then, download and unzip the UCI HAR Dataset in the newly created directory.
 
 The structure of your Directory should be similar to : 
 
-TidyData/
-        CodeBook.Rmd
-        README.MD (this is the present file)
-        run_analysis.R (the code to be tested)
-        tidyData.txt (the result you should obtain)
-        /UCI HAR Dataset/
-                activity_labels.txt
-                features_info.txt
-                features.txt
-                README.txt
-                /test/
-                        /Inertial Signals/
-                                contains other .txt files which are raw data, but we are not going to use them
-                        subject_test.txt
-                        X_test.txt
-                        Y_test.txt
-                /train/
-                        /Inertial Signals/
-                                contains other .txt files which are raw data, but we are not going to use them
-                        subject_train.txt
-                        X_train.txt
-                        Y_train.txt
+
+        TidyData/
+                CodeBook.Rmd
+                README.MD (this is the present file)
+                run_analysis.R (the code to be tested)
+                tidyData.txt (the result you should obtain)
+                /UCI HAR Dataset/
+                        activity_labels.txt
+                        features_info.txt
+                        features.txt
+                        README.txt
+                        /test/
+                                /Inertial Signals/
+                                        contains other .txt files which are raw data, but we are not going to use them
+                                subject_test.txt
+                                X_test.txt
+                                Y_test.txt
+                        /train/
+                                /Inertial Signals/
+                                        contains other .txt files which are raw data, but we are not going to use them
+                                subject_train.txt
+                                X_train.txt
+                                Y_train.txt
                 
 Open the R console or RStudio and set your Working Directory to the TidyData directory
 
